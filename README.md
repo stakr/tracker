@@ -1,22 +1,22 @@
-== Request Tracker
+# Request Tracker
 
-Written by stakr GbR (Jan Sebastian Siwy, Martin Spickermann, Henning Staib GbR; http://stakr.de)
+Written by stakr GbR (Jan Sebastian Siwy, Martin Spickermann, Henning Staib GbR; http://www.stakr.de/)
 
-Source: http://svn.stakr.de/rails/plugins/request_tracker
+Source: https://github.com/stakr/tracker
 
 Tracks all requests of controllers including a module of this plugin into database.
 
 
-=== Integration
+## Integration
 
 Just copy or symlink the migration in "db/migration" folder of your application.
 
   cd /path/to/your/application
   cd db/migration
   cp ../../vendor/plugins/tracker/db/migrate/20091103203420_create_tracker_requests.rb .
-  
+
 or
-  
+
   cd /path/to/your/application
   cd db/migration
   ln -s ../../vendor/plugins/tracker/db/migrate/20091103203420_create_tracker_requests.rb .
